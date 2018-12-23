@@ -1,0 +1,15 @@
+.el-input._is-error > .el-input__inner, .el-select._is-error > .el-input > .el-input__inner {
+  border-color: #f56c6c
+}
+
+._is-error {
+  color: #f56c6c;
+}
+
+.add-minus.el-table .cell {
+  line-height: 16px;
+}
+
+.add-minus.el-table td {
+  vertical-align: top;
+}

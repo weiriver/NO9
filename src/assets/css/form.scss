@@ -1,0 +1,68 @@
+//新增的 form
+.ruleForm {
+  .two-item-line {
+    .el-form-item__content {
+      display: flex;
+    }
+  }
+}
+// 新增的 form 里面的子项
+.el-form-item__content {
+  text-align: left;
+  width: 300px;
+  .el-select {
+    width: 100%;
+  }
+}
+
+//查询条件的 form
+.form-inline {
+  .el-form-item {
+    width: 48%;
+    .el-form-item__content {
+      width: 60%;
+    }
+  }
+  .el-col .el-form-item {
+    width: 100%;
+  }
+  .el-col .el-form-item__content {
+    width: 100%;
+  }
+  .full-line {
+    width: 100%;
+    .el-form-item__content {
+      width: 80%;
+      .el-date-editor--daterange {
+        width: 350px;
+      }
+    }
+  }
+}
+
+.search-select {
+  width: 100px;
+  margin-left: 10px;
+  display: inline-block;
+  .el-input__inner {
+  }
+}
+.el-dialog {
+  border-radius: 6px;
+  .el-dialog__header {
+    border-bottom: 1px solid #e9eaec;
+    .el-dialog__title {
+      height: 20px;
+      line-height: 20px;
+      font-size: 14px;
+      color: #1c2438;
+      font-weight: 700;
+    }
+  }
+  .el-dialog__footer {
+    border-top: 1px solid #e9eaec;
+  }
+}
+.el-date-editor--daterange.el-input__inner {
+  width: 220px;
+}

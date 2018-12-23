@@ -1,0 +1,159 @@
+.wrapper {
+  //display: flex;
+  //overflow-y: auto;
+  height: calc(100% - 51px);
+  display: flex;
+  flex-direction: column;
+  .wrapper_content{
+    height: 100%;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+.leftbox {
+  flex: 5;
+  padding: 10px;
+}
+
+.rightbox {
+  padding-right: 12px;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  //padding-top: 47px;
+  h1 {
+    text-align: center;
+  }
+}
+
+#echartMap {
+  width: 100%;
+  height: 95%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.barTimeline {
+  width: 14px;
+  // margin: auto;
+  margin-left: 120px;
+  //.ivu-timeline-item {
+  //  .ivu-timeline-item-content {
+  //    padding: 1px 10px 10px 0;
+  //    width: 100px;
+  //    left: -100px;
+  //    text-align: right;
+  //    font-size: 14px;
+  //  }
+  //}
+}
+
+.timelineTitle {
+  &:hover {
+    cursor: pointer;
+  }
+  &.active {
+    color: #57a3f3;
+  }
+}
+
+.centerBox {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.leftBar {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#barEchart {
+  width: 100%;
+  flex: 1;
+}
+
+.btns {
+  height: 72px;
+  box-sizing: border-box;
+  h4 {
+    line-height: 30px;
+  }
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.warn {
+  color: red;
+}
+
+.ivu-collapse {
+  background: white;
+}
+
+.myCollapse .el-collapse-item__header {
+  color: #0088cc !important;
+  background: none;
+  padding-left: 5px;
+}
+
+//.el-collapse-item {
+//  border: 1px solid #dddee1
+//}
+
+.flex3 {
+  flex: 3;
+}
+
+.flex4 {
+  flex: 4;
+}
+
+.flex5 {
+  flex: 5;
+}
+
+.flex6 {
+  flex: 6;
+}
+
+.flex8 {
+  flex: 8;
+}
+
+.flex10 {
+  flex: 10;
+}
+
+.rightbox > .tableList > .title {
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.rightbox .el-table th {
+  background: #d9edf7;
+}
+
+//.rightbox .ivu-table td, .rightbox .ivu-table th {
+//  height: 32px;
+//  font-size: 8pt;
+//  text-align: center;
+//}
+//
+//.rightbox .ivu-table-wrapper {
+//  border-top: none;
+//}
+
+.runAnalysis {
+  display: flex;
+  width: 100%;
+}
+
+
