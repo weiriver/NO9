@@ -1,8 +1,7 @@
 <template>
   <Container>
     <Header>
-      <!--<MyHeader></MyHeader>-->
-      123
+      <MyHeader></MyHeader>
     </Header>
     <Main>
       <router-view class="HMF-main-view"></router-view>
