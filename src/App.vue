@@ -22,12 +22,12 @@ export default {
 </script>
 
 <style lang="scss">
-  /*#app {*/
-  /*height: 100%;*/
-  /*width: 100%;*/
-  /*margin: 0 auto;*/
-  /*min-width: 1024px;*/
-  /*}*/
+  #app {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1024px;
+  }
 
   /*@media screen and (min-width: 1024px) {*/
   /*#app {*/

@@ -150,9 +150,9 @@ table {
 }
 
 // 增加nav的样式
-.el-menu-item.is-active {
-  border-right: 1px solid #409eff;
-}
+//.el-menu-item.is-active {
+//  border-right: 1px solid #409eff;
+//}
 
 // 内容标题(如详情页、查询条件....标题，带下划线)
 .content_title {
@@ -164,52 +164,52 @@ table {
 }
 
 // 重置表格头部的字体样式
-.el-table thead {
-  color: #3a3b3d;
-  font-weight: 500;
-}
-
-.el-table th {
-  background: $table-bg-color;
-}
+//.el-table thead {
+//  color: #3a3b3d;
+//  font-weight: 500;
+//}
+//
+//.el-table th {
+//  background: $table-bg-color;
+//}
 
 // 重置card的样式
-.el-card__body {
-  padding: 10px;
-}
+//.el-card__body {
+//  padding: 10px;
+//}
 
 // 重置tags的样式
 
-._blue-header .el-tabs__nav-scroll {
-  background: $main-color;
-}
+//._blue-header .el-tabs__nav-scroll {
+//  background: $main-color;
+//}
 
-.el-tabs--border-card > .el-tabs__header .el-tabs__item {
-  background: $main-color;
-  color: white;
-}
+//.el-tabs--border-card > .el-tabs__header .el-tabs__item {
+//  background: $main-color;
+//  color: white;
+//}
 
-.el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover {
-  color: white;
-}
+//.el-tabs--border-card > .el-tabs__header .el-tabs__item:not(.is-disabled):hover {
+//  color: white;
+//}
 
-._blue-header .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active, .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active:hover {
-  background: white;
-  color: $main-font-color;
-}
+//._blue-header .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active, .el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active:hover {
+//  background: white;
+//  color: $main-font-color;
+//}
 
 // 重置dialog表头,脚部的样式
-.el-dialog__header, .el-dialog__footer {
-  line-height: 1px;
-}
+//.el-dialog__header, .el-dialog__footer {
+//  line-height: 1px;
+//}
 
-h3 {
-  line-height: 38px;
-  font-size: 14px;
-  text-align: left;
-  // border-bottom: 1px dashed $border-color;
-  position: relative;
-}
+//h3 {
+//  line-height: 38px;
+//  font-size: 14px;
+//  text-align: left;
+//  // border-bottom: 1px dashed $border-color;
+//  position: relative;
+//}
 
 .pointer {
   cursor: pointer;
@@ -227,14 +227,14 @@ h3 {
 }
 
 // 重置高德地图样式
-.amap-sug-result {
-  bottom: 0;
-}
+//.amap-sug-result {
+//  bottom: 0;
+//}
 
 // 重置tabs样式
-.el-dialog__body {
-  padding: 10px 20px;
-}
+//.el-dialog__body {
+//  padding: 10px 20px;
+//}
 
 // 站点编号，带远程搜索的输入框宽度铺满
 .el-autocomplete {
@@ -242,6 +242,6 @@ h3 {
 }
 
 // 布局（上头部-左侧nav-右主视图）
-@import "./header-nav-main-layout";
+//@import "./header-nav-main-layout";
 // 新增修改表单
 @import "./form";

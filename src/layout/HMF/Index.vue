@@ -1,7 +1,8 @@
 <template>
   <Container>
     <Header>
-      <MyHeader></MyHeader>
+      <!--<MyHeader></MyHeader>-->
+      123
     </Header>
     <Main>
       <router-view class="HMF-main-view"></router-view>
@@ -10,6 +11,7 @@
       <MyFooter></MyFooter>
     </Footer>
   </Container>
+
 
 </template>
 
@@ -20,11 +22,9 @@ import MyFooter from '@/components/footer/Footer'
 export default {
   name: 'Subindex',
   data: function () {
-    return {
-    }
+    return {}
   },
-  methods: {
-  },
+  methods: {},
   async mounted() {
   },
   beforeMount() {
@@ -34,4 +34,31 @@ export default {
 </script>
 
 <style lang="scss">
+  .el-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  .el-header, .el-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+
+  .el-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+
+  .el-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+    min-height: calc(100% - 60px);;
+  }
 </style>
