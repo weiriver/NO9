@@ -62,10 +62,10 @@ axios.interceptors.response.use(
           message: `接口${response.data.apiCode} 报${response.data.msg}`
         })
         // location.href = 'http://localhost:8082/login.html'
-        location.href = 'http://localhost:8083/#/login'
+        // location.href = 'http://localhost:8083/#/login'
         // location.href = 'http://localhost:8084/#/login'
       } else {
-        location.href = '../login.html'
+        // location.href = '../login.html'
       }
       // }
     } else if (response.data.code !== '0' && response.data.code !== '10021' && response.data.code !== '10020' && response.data.msg) {

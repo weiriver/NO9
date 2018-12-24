@@ -1,8 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import storage from './storage'
-// import train from './train'
-// import repair from './repair'
 import station from './station'
 import sysSetup from './sysSetup'
 
@@ -12,16 +9,20 @@ const Subindex = () => import('@/views/subindex/Subindex')
 const Refresh = () => import('@/views/subindex/Refresh')
 const PrintPage = () => import('@/views/subindex/PrintPage')
 const PrintStatementPage = () => import('@/views/subindex/PrintStatement')
+const test = () => import('@/views/subindex/test')
 
 Vue.use(Router)
-
+import {HMF} from './base'
 
 export default new Router({
   routes: [
     {
       path: '/a',
-      name: 'subView',
-      component: Subindex
+      name: 'HMF',
+      component: HMF,
+      children: [
+        {path: 'abc', component: test}
+      ]
     },
     {
       path: '/desktop',

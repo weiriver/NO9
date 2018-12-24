@@ -1,3 +1,6 @@
+const HMF = () => import('@/layout/HMF')
+const HLRF = () => import('@/layout/HLRF')
+
 const Main = () => import('@/views/main/Index')
 const Desktop = () => import('@/views/desktop/Index')
 const Login = () => import('@/views/login/Index')
@@ -6,4 +9,4 @@ const Refresh = () => import('@/views/subindex/Refresh')
 const PrintPage = () => import('@/views/subindex/PrintPage')
 const SysSetup = () => import('@/views/sysSetup/Index')
 
-export {Main, Desktop, Login, Subindex, Refresh, PrintPage, SysSetup}
+export {Main, Desktop, Login, Subindex, Refresh, PrintPage, SysSetup, HMF, HLRF}
