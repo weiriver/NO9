@@ -1,7 +1,7 @@
 <template>
   <div>test</div>
 </template>
-<script type="text/ecmascript-6">
+<script>
 export default {
   props: {},
   data() {
@@ -12,6 +12,6 @@ export default {
   }
 }
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style>
 
 </style>

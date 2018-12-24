@@ -1,5 +1,5 @@
-const HMF = () => import('@/layout/HMF')
-const HLRF = () => import('@/layout/HLRF')
+const HMF = () => import('@/layout/HMF/Index')
+const HLRF = () => import('@/layout/HLRF/Index')
 
 const Main = () => import('@/views/main/Index')
 const Desktop = () => import('@/views/desktop/Index')
